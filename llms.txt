@@ -1,0 +1,62 @@
+# Bamberg
+
+> Geotechnical engineering company in Germany, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Analyse Seismischen Verstarkung](https://bamberg.geotechnik.vip/analyse-seismischen-verstarkung/)
+- [Atterberg Grenzen](https://bamberg.geotechnik.vip/atterberg-grenzen/)
+- [Bemessung Dynamischen Verdichtung](https://bamberg.geotechnik.vip/bemessung-dynamischen-verdichtung/)
+- [Bemessung Flexibler Fahrbahnen](https://bamberg.geotechnik.vip/bemessung-flexibler-fahrbahnen/)
+- [Bemessung Geozellen](https://bamberg.geotechnik.vip/bemessung-geozellen/)
+- [Bemessung Rammpfahlen](https://bamberg.geotechnik.vip/bemessung-rammpfahlen/)
+- [Bemessung Rutteldruckverdichtung](https://bamberg.geotechnik.vip/bemessung-rutteldruckverdichtung/)
+- [Bemessung Starrer Fahrbahnen](https://bamberg.geotechnik.vip/bemessung-starrer-fahrbahnen/)
+- [Bemessung Vertikalen Drans](https://bamberg.geotechnik.vip/bemessung-vertikalen-drans/)
+- [Bemessung Vorbelastung Auflast](https://bamberg.geotechnik.vip/bemessung-vorbelastung-auflast/)
+- [Berechnung Des Sicherheitsfaktors](https://bamberg.geotechnik.vip/berechnung-des-sicherheitsfaktors/)
+- [Bewertung Bestehender Fahrbahnen](https://bamberg.geotechnik.vip/bewertung-bestehender-fahrbahnen/)
+- [Bewertung Quellfahigen Boden](https://bamberg.geotechnik.vip/bewertung-quellfahigen-boden/)
+- [Bewertung Setzungsempfindlichen Boden](https://bamberg.geotechnik.vip/bewertung-setzungsempfindlichen-boden/)
+- [Bodenerosionsanalyse](https://bamberg.geotechnik.vip/bodenerosionsanalyse/)
+- [Bodenmechanische Untersuchung](https://bamberg.geotechnik.vip/bodenmechanische-untersuchung/)
+- [Bodenstabilisierung Fur Straßen](https://bamberg.geotechnik.vip/bodenstabilisierung-fur-straßen/)
+- [Bodenverbesserung](https://bamberg.geotechnik.vip/bodenverbesserung/)
+- [Boschungsbruchanalyse](https://bamberg.geotechnik.vip/boschungsbruchanalyse/)
+- [Boschungsstabilisierungsbemessung](https://bamberg.geotechnik.vip/boschungsstabilisierungsbemessung/)
+- [Boschungsstabilitatsanalyse](https://bamberg.geotechnik.vip/boschungsstabilitatsanalyse/)
+- [Cbr Studie Fur Straßenentwurf](https://bamberg.geotechnik.vip/cbr-studie-fur-straßenentwurf/)
+- [Charakterisierung Residualboden](https://bamberg.geotechnik.vip/charakterisierung-residualboden/)
+- [Cone Penetration Test](https://bamberg.geotechnik.vip/cone-penetration-test/)
+- [Deep Soil Mixing](https://bamberg.geotechnik.vip/deep-soil-mixing/)
+- [Einaxialer Druckversuch](https://bamberg.geotechnik.vip/einaxialer-druckversuch/)
+- [Erdbebenisolationsbemessung](https://bamberg.geotechnik.vip/erdbebenisolationsbemessung/)
+- [Erkundung](https://bamberg.geotechnik.vip/erkundung/)
+- [Fahrbahnbau Untergrundbemessung](https://bamberg.geotechnik.vip/fahrbahnbau-untergrundbemessung/)
+- [Felddurchlassigkeitsversuch](https://bamberg.geotechnik.vip/felddurchlassigkeitsversuch/)
+- [Flachdilatometer Versuch](https://bamberg.geotechnik.vip/flachdilatometer-versuch/)
+- [Flachgrundungsbemessung](https://bamberg.geotechnik.vip/flachgrundungsbemessung/)
+- [Fundamente](https://bamberg.geotechnik.vip/fundamente/)
+- [Geogitter Spezifikation](https://bamberg.geotechnik.vip/geogitter-spezifikation/)
+- [Geomembran Spezifikation](https://bamberg.geotechnik.vip/geomembran-spezifikation/)
+- [Geophysik](https://bamberg.geotechnik.vip/geophysik/)
+- [Geotechnik Deponien](https://bamberg.geotechnik.vip/geotechnik-deponien/)
+- [Geotechnische Analyse Fur Tunnel](https://bamberg.geotechnik.vip/geotechnische-analyse-fur-tunnel/)
+- [Geotechnische Baugrubenuberwachung](https://bamberg.geotechnik.vip/geotechnische-baugrubenuberwachung/)
+- [Geotechnische Bemessung Tiefer Baugruben](https://bamberg.geotechnik.vip/geotechnische-bemessung-tiefer-baugruben/)
+- [Geotechnische Boschungsuberwachung](https://bamberg.geotechnik.vip/geotechnische-boschungsuberwachung/)
+- [Geotechnische Entwasserungsbemessung](https://bamberg.geotechnik.vip/geotechnische-entwasserungsbemessung/)
+- [Geotechnische Instrumentierung](https://bamberg.geotechnik.vip/geotechnische-instrumentierung/)
+- [Geotechnische Straßenentwasserung](https://bamberg.geotechnik.vip/geotechnische-straßenentwasserung/)
+- [Geotextil Spezifikation](https://bamberg.geotechnik.vip/geotextil-spezifikation/)
+- [Ground Penetrating Radar](https://bamberg.geotechnik.vip/ground-penetrating-radar/)
+- [Hange Wande](https://bamberg.geotechnik.vip/hange-wande/)
+- [Hvsr Mikrotremor Messung](https://bamberg.geotechnik.vip/hvsr-mikrotremor-messung/)
+- [In Situ Prufungen](https://bamberg.geotechnik.vip/in-situ-prufungen/)
+- [Injektionsbemessung](https://bamberg.geotechnik.vip/injektionsbemessung/)
+
+## Contact
+- Website: https://bamberg.geotechnik.vip/
+
+## About
+This page provides information about geotechnical engineering services available in Germany.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
