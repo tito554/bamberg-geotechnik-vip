@@ -1,228 +1,267 @@
-<!DOCTYPE html>
-<html lang="de">
-<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8"><meta name="theme-color" content="#800020">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Geophysik in Bamberg – Germany</title>
-<meta name="description" content="In Bamberg erfordert die komplexe Geologie des fränkischen Bruchschollenlandes mit seinen Tonstein-, Sandstein- und Kalksteinformationen eine präzise Baugr">
-<link rel="canonical" href="https://bamberg.geotechnik.vip/geophysik/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Geophysik in Bamberg – Germany">
-<meta property="og:description" content="In Bamberg erfordert die komplexe Geologie des fränkischen Bruchschollenlandes mit seinen Tonstein-, Sandstein- und Kalksteinformationen eine präzise Baugr">
-<meta property="og:url" content="https://bamberg.geotechnik.vip/geophysik/">
-<meta property="og:site_name" content="Bamberg De">
-<meta property="og:image" content="https://bamberg.geotechnik.vip/img/ground-penetrating-radar-1.webp">
-<meta property="og:locale" content="de_DE">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Geophysik in Bamberg – Germany">
-<meta name="twitter:description" content="In Bamberg erfordert die komplexe Geologie des fränkischen Bruchschollenlandes mit seinen Tonstein-, Sandstein- und Kalksteinformationen eine präzise Baugr">
-
-<style>
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
+<!DOCTYPE html><html lang="de"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="icon" type="image/png" sizes="96x96" href="/favicon.png"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="theme-color" content="#800020"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Geophysik in Bamberg – Germany</title><meta name="description" content="Die Geophysik umfasst in Bamberg ein breites Spektrum zerstörungsfreier Untersuchungsmethoden zur Erkundung des"><link rel="canonical" href="https://bamberg.geotechnik.vip/geophysik/"><meta property="og:type" content="website"><meta property="og:title" content="Geophysik in Bamberg – Germany"><meta property="og:description" content="Die Geophysik umfasst in Bamberg ein breites Spektrum zerstörungsfreier Untersuchungsmethoden zur Erkundung des"><meta property="og:url" content="https://bamberg.geotechnik.vip/geophysik/"><meta property="og:site_name" content="Bamberg De"><meta property="og:image" content="https://bamberg.geotechnik.vip/img/respuesta-sismica-4.webp"><meta property="og:locale" content="de_DE"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Geophysik in Bamberg – Germany"><meta name="twitter:description" content="Die Geophysik umfasst in Bamberg ein breites Spektrum zerstörungsfreier Untersuchungsmethoden zur Erkundung des oberflächennahen Untergrunds. Diese Verfahr"><style>/*afx*/@media (max-width: 900px) {
+.sidebar { display: none; }
+.content-area { flex-direction: column; }
+.container { padding: 1rem; }
+.header-top { flex-direction: column; text-align: center; }
+main { padding: 1.5rem; }
+}
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
 .cat-toggle:hover{background:rgba(255,255,255,.1)}
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+summary::-webkit-details-marker { display: none; }
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+footer a { color: rgba(255,255,255,0.85); }
+.sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.sidebar .cat.open .arrow { transform: rotate(90deg); }
+.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
+.cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
+.sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
+* { margin:0; padding:0; box-sizing:border-box; }
+tr:nth-child(even) { background: #f8fafc; }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
 h1, h2, h3, h4 { font-family: var(--font-h); }
-:root {
-    --primary: #E11D48;
-    --accent: #F43F5E;
-    --dark: #18181B;
-    --bg: #FAFAF9;
-    --text: #18181B;
-    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
-    --font-b: 'Lora', 'Segoe UI', sans-serif;
-}
-.sidebar .cat {
-    cursor: pointer; display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-    border-top: 1px solid rgba(255,255,255,0.04);
-}
-.sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
-
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+a { color: var(--primary); text-decoration: none; }
+main section { margin-bottom: 1.5rem; }
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+:root {
+--primary: #E11D48;
+--accent: #F43F5E;
+--dark: #18181B;
+--bg: #FAFAF9;
+--text: #18181B;
+--font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+--font-b: 'Lora', 'Segoe UI', sans-serif;
+}
+.sidebar .home {
+display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+font-size: .85rem; font-weight: 600;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+text-decoration: none;
+}
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+.servicio:hover { border-color: var(--primary); }
+.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+.cta .whatsapp-btn {
+display: inline-block; background: #25D366; color: white;
+padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+margin-bottom: 1.25rem; font-size: 1rem;
+}
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+.cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+main p { margin-bottom: 1rem; color: #334155; }
+.sidebar {
+width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+max-height: calc(100vh - 2rem); overflow-y: auto;
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-.cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-.sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
-tr:nth-child(even) { background: #f8fafc; }
-.sidebar .cat.open .arrow { transform: rotate(90deg); }
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-a { color: var(--primary); text-decoration: none; }
-.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-details[open] summary::before { content: '− '; }
-summary::-webkit-details-marker { display: none; }
-    .header-top { flex-direction: column; text-align: center; }
-.sidebar .cat.open + .sub { display: flex; }
-.cta .whatsapp-btn:hover { background: #1eb853; }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-footer a { color: rgba(255,255,255,0.85); }
-main section { margin-bottom: 1.5rem; }
-    main { padding: 1.5rem; }
-.cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .container { padding: 1rem; }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-.servicio:hover { border-color: var(--primary); }
-.sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-    .content-area { flex-direction: column; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.header-contact a:hover { color: white; }
-.sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
-}
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
-}
-.cat-row:hover{background:rgba(255,255,255,.05)}
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-.cta .contacto-line a { color: white; text-decoration: underline; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+.cat-row:hover{background:rgba(255,255,255,.05)}
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+.sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 summary:hover { background: rgba(0,0,0,0.02); }
-* { margin:0; padding:0; box-sizing:border-box; }
-.sidebar .sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.sidebar .cat {
+cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+transition: background .15s;
+border-top: 1px solid rgba(255,255,255,0.04);
 }
-main p { margin-bottom: 1rem; color: #334155; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
-.sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }</style>
-<style>
+.cta .contacto-line a { color: white; text-decoration: underline; }
+.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
+.sidebar .sub a {
+display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+font-size: .78rem; transition: all .15s; text-decoration: none;
+border-left: 2px solid transparent;
+}
+.header-contact a:hover { color: white; }
+details[open] summary::before { content: '− '; }
+.sidebar .cat.open + .sub { display: flex; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.sidebar .cat:hover { background: rgba(255,255,255,0.08); }
+.cta .whatsapp-btn:hover { background: #1eb853; }</style><style>/*afx*/
 @media(min-width:901px){
-  .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
-  aside{align-self:start!important}
-  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-  .sidebar nav,.sidebar .nav{display:block!important}
+.content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
+.sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+aside{align-self:start!important}
+.layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
+.navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
+.sidebar nav,.sidebar .nav{display:block!important}
 img{max-width:100%!important;height:auto!important}
-  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
-  body{background:#FAFAFA!important;color:#18181B!important}
-  main{flex:1!important;min-width:0!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"inLanguage":"de","description":"In Bamberg erfordert die komplexe Geologie des fränkischen Bruchschollenlandes mit seinen Tonstein-, Sandstein- und Kalksteinformationen eine präzise Baugr","@id":"https://bamberg.geotechnik.vip/geophysik/","isPartOf":{"@type":"WebSite","url":"https://bamberg.geotechnik.vip","@id":"https://bamberg.geotechnik.vip/#website-a9ae"},"name":"Geophysik in Bamberg – Germany","url":"https://bamberg.geotechnik.vip/geophysik/","@type":"WebPage"},{"itemListElement":[{"name":"Home","item":"https://bamberg.geotechnik.vip/","@type":"ListItem","position":1},{"name":"Geophysik","item":"https://bamberg.geotechnik.vip/geophysik/","@type":"ListItem","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"name":"Georadar GPR (Ground Penetrating Radar)","@type":"ListItem","position":1,"url":"https://bamberg.geotechnik.vip/ground-penetrating-radar/"},{"name":"HVSR-Mikrotremor-Messung (Nakamura-Methode)","@type":"ListItem","position":2,"url":"https://bamberg.geotechnik.vip/hvsr-mikrotremor-messung/"},{"name":"MASW / VS30 (Scherwellengeschwindigkeit)","@type":"ListItem","position":3,"url":"https://bamberg.geotechnik.vip/scherwellengeschwindigkeit/"},{"name":"Seismische Tomographie (Refraktion/Reflexion)","@type":"ListItem","position":4,"url":"https://bamberg.geotechnik.vip/seismische-tomographie/"}],"name":"Geophysik","@type":"ItemList"}]}</script></head>
-<body>
+.navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
+body{background:#FAFAFA!important;color:#18181B!important}
+main{flex:1!important;min-width:0!important}
+}
+</style><style>/*afx*/.leaflet-control { z-index: 800 !important; }
+.leaflet-container { z-index: 1 !important; }
+header.hero, .hero { position: relative !important; }
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }
+/* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+position: sticky !important;
+top: 0 !important;
+z-index: 1010 !important;
+}
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+z-index: 1100 !important;
+}</style><style>/*afx*/p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#800020) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}</style><style>/*afx*/@media (max-width:1100px){
+.nav-item{font-size:.7rem !important}
+.navbar .nav{gap:.4rem !important}
+.cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.navbar .nav{gap:.55rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}</style><style>/*afx*/@media (min-width:901px){
+aside{position:relative}
+aside+main,aside~main,aside~div>main{margin-left:0}
+.content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+aside{width:100% !important;position:static !important;height:auto !important}
+.navbar{flex-wrap:wrap}
+}
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}</style><style>/*afx*/@media (max-width:900px){body{padding-top:90px}}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+body{padding-top:60px}
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}</style><style>/*afx*/aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+/* Bg sutil que funciona en cualquier fondo */
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Adaptativo: hover preserva color heredado (white en dark sidebar, dark en light) */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-sub-wrap a:hover{background:rgba(127,127,127,.08) !important}</style><style>/*afx*/.cat-arrow{display:inline-block}
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}</style><style>/*afx*/
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+</style><style>/*afx*//* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+.navbar .nav{gap:.55rem !important}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+body>*{max-width:100vw}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}</style><style>/*afx*//* cat-sub-wrap: full width abajo */
+.cat-sub-wrap, .cat-sub, .nav-cat-sub {
+flex-basis: 100% !important;
+width: 100% !important;
+max-width: 100% !important;
+order: 3 !important;
+position: static !important;
+background: rgba(0,0,0,.15) !important;
+padding: .4rem 0 .8rem !important;
+}
+/* Sub-item links */
+.cat-sub-wrap a, .cat-sub a, .nav-cat-sub a {
+display: block !important;
+width: 100% !important;
+font-size: .82rem !important;
+line-height: 1.25 !important;
+padding: .35rem 1rem .35rem 1.8rem !important;
+white-space: normal !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+box-sizing: border-box !important;
+}
+.cat-name {
+flex: 1 1 auto !important;
+min-width: 0 !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+white-space: normal !important;
+order: 1 !important;
+}
+.cat-toggle, .cat-arrow {
+flex-shrink: 0 !important;
+order: 2 !important;
+}
+/* cat-row interno: SI flex para alinear name + toggle */
+.cat-row {
+display: flex !important;
+flex-wrap: nowrap !important;
+align-items: center !important;
+justify-content: space-between !important;
+width: 100% !important;
+}
+/* cat-item: BLOCK (no flex) — children flow normal y cat-sub-wrap toma full width */
+.cat-item, details {
+display: block !important;
+position: relative !important;
+}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://bamberg.geotechnik.vip/geophysik/", "url": "https://bamberg.geotechnik.vip/geophysik/", "name": "Geophysik in Bamberg – Germany", "inLanguage": "de", "description": "Die Geophysik umfasst in Bamberg ein breites Spektrum zerstörungsfreier Untersuchungsmethoden zur Erkundung des oberflächennahen Untergrunds. Diese Verfahr", "isPartOf": {"@type": "WebSite", "@id": "https://bamberg.geotechnik.vip/#website-be6a", "url": "https://bamberg.geotechnik.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bamberg.geotechnik.vip/"}, {"@type": "ListItem", "position": 2, "name": "Geophysik", "item": "https://bamberg.geotechnik.vip/geophysik/"}]}, {"@type": "ItemList", "name": "Geophysik", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://bamberg.geotechnik.vip/ground-penetrating-radar/", "name": "Georadar GPR (Ground Penetrating Radar)"}, {"@type": "ListItem", "position": 2, "url": "https://bamberg.geotechnik.vip/hvsr-mikrotremor-messung/", "name": "HVSR-Mikrotremor-Messung (Nakamura-Methode)"}, {"@type": "ListItem", "position": 3, "url": "https://bamberg.geotechnik.vip/scherwellengeschwindigkeit/", "name": "MASW / VS30 (Scherwellengeschwindigkeit)"}, {"@type": "ListItem", "position": 4, "url": "https://bamberg.geotechnik.vip/seismische-tomographie/", "name": "Seismische Tomographie (Refraktion/Reflexion)"}]}]}</script><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><style>/*afx*/.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+.navbar .nav{gap:.55rem !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+body>*{max-width:100vw}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/respuesta-sismica-4.webp" fetchpriority="high">
 
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;flex-direction:column;align-items:center;gap:6px;"><svg viewBox="0 0 64 64" width="44" height="44" style="flex-shrink:0"><polygon points="32,4 60,24 50,58 14,58 4,24" fill="#E11D48"/></svg><span style="font-family:Georgia, "Times New Roman", serif;sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:15px;text-transform:uppercase;letter-spacing:0.1em;">Bamberg De</span></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Bamberg, Germany</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:kontakt@geotechnik.vip">kontakt@geotechnik.vip</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Start</a></li><li>›</li><li>Seismik & Spezial</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Geophysik</li></ol></nav>
-        <h1>Geophysik in Bamberg</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Start</a><div class="cat-item" data-cat="erkundung"><div class="cat-row"><a href="../erkundung/" class="cat-name">Erkundung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Erkundung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../cone-penetration-test">CPT (Cone Penetration Test)</a><a data-interlink="1" href="../sondierbohrung">Schürfgrube (Sondierbohrung)</a><a data-interlink="1" href="../standard-penetration-test">SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="in-situ-prufungen"><div class="cat-row"><a href="../in-situ-prufungen/" class="cat-name">In-Situ-Prüfungen</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ-Prüfungen"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../felddurchlassigkeitsversuch">Felddurchlässigkeitsversuch (Lefranc/Lugeon)</a><a data-interlink="1" href="../flachdilatometer-versuch">Flachdilatometer-Versuch (DMT)</a><a data-interlink="1" href="../porchet-doppelring-infiltrometer">Infiltrationstest (Porchet/Doppelring-Infiltrometer)</a><a data-interlink="1" href="../menard-druckversuch">Ménard-Druckversuch (Druckmesserversuch)</a></div></div><div class="cat-item" data-cat="labor"><div class="cat-row"><a href="../labor/" class="cat-name">Labor</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Labor"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../atterberg-grenzen">Atterberg-Grenzen</a><a data-interlink="1" href="../bodenmechanische-untersuchung">Bodenmechanische Untersuchung</a><a data-interlink="1" href="../charakterisierung-residualboden">Charakterisierung von Residualböden</a><a data-interlink="1" href="../einaxialer-druckversuch">Einaxialer Druckversuch (UCS)</a><a data-interlink="1" href="../labor-durchlassigkeitsversuch">Labor-Durchlässigkeitsversuch (fallender/konstanter Druck)</a><a data-interlink="1" href="../normal-modifiziert">Proctor-Versuch (Normal oder Modifiziert)</a></div></div><div class="cat-item" data-cat="fundamente"><div class="cat-row"><a href="../fundamente/" class="cat-name">Fundamente</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundamente"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-rammpfahlen">Bemessung von Rammpfählen</a><a data-interlink="1" href="../bewertung-quellfahigen-boden">Bewertung von quellfähigen Böden</a><a data-interlink="1" href="../bewertung-setzungsempfindlichen-boden">Bewertung von setzungsempfindlichen Böden</a><a data-interlink="1" href="../flachgrundungsbemessung">Flachgründungsbemessung</a><a data-interlink="1" href="../mikropfahlbemessung">Mikropfahlbemessung</a><a data-interlink="1" href="../plattengrundungsbemessung">Plattengründungsbemessung</a><a data-interlink="1" href="../setzungsanalyse">Setzungsanalyse</a><a data-interlink="1" href="../tragfahigkeitsanalyse">Tragfähigkeitsanalyse</a></div></div><div class="cat-item" data-cat="hange-wande"><div class="cat-row"><a href="../hange-wande/" class="cat-name">Hänge & Wände</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Hänge & Wände"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-geozellen">Bemessung mit Geozellen</a><a data-interlink="1" href="../berechnung-des-sicherheitsfaktors">Berechnung des Sicherheitsfaktors (FS)</a><a data-interlink="1" href="../bodenerosionsanalyse">Bodenerosionsanalyse</a><a data-interlink="1" href="../boschungsbruchanalyse">Böschungsbruchanalyse</a><a data-interlink="1" href="../boschungsstabilisierungsbemessung">Böschungsstabilisierungsbemessung</a><a data-interlink="1" href="../boschungsstabilitatsanalyse">Böschungsstabilitätsanalyse</a><a data-interlink="1" href="../geotechnische-boschungsuberwachung">Geotechnische Böschungsüberwachung (monatlich)</a><a data-interlink="1" href="../rutschungsbewertung">Rutschungsbewertung</a><a data-interlink="1" href="../schlitzwandbemessung">Schlitzwandbemessung</a><a data-interlink="1" href="../spundwandbemessung">Spundwandbemessung</a><a data-interlink="1" href="../stutzwandbemessung">Stützwandbemessung</a></div></div><div class="cat-item" data-cat="bodenverbesserung"><div class="cat-row"><a href="../bodenverbesserung/" class="cat-name">Bodenverbesserung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Bodenverbesserung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-dynamischen-verdichtung">Bemessung der dynamischen Verdichtung</a><a data-interlink="1" href="../bemessung-rutteldruckverdichtung">Bemessung der Rütteldruckverdichtung</a><a data-interlink="1" href="../bemessung-vorbelastung-auflast">Bemessung der Vorbelastung mit Auflast</a><a data-interlink="1" href="../bemessung-vertikalen-drans">Bemessung von vertikalen Dräns (vorgefertigt)</a><a data-interlink="1" href="../deep-soil-mixing">Deep Soil Mixing (DSM) Bemessung</a><a data-interlink="1" href="../geogitter-spezifikation">Geogitter-Spezifikation</a><a data-interlink="1" href="../geomembran-spezifikation">Geomembran-Spezifikation</a><a data-interlink="1" href="../geotechnik-deponien">Geotechnik von Deponien</a><a data-interlink="1" href="../geotechnische-entwasserungsbemessung">Geotechnische Entwässerungsbemessung</a><a data-interlink="1" href="../geotechnische-instrumentierung">Geotechnische Instrumentierung (Bemessung und Installation)</a><a data-interlink="1" href="../geotextil-spezifikation">Geotextil-Spezifikation</a><a data-interlink="1" href="../injektionsbemessung">Injektionsbemessung (Grouting)</a><a data-interlink="1" href="../jet-grouting-bemessung">Jet-Grouting-Bemessung</a><a data-interlink="1" href="../sanierung-kontaminierter-boden">Sanierung kontaminierter Böden</a><a data-interlink="1" href="../stabilisierung-kalk-zement">Stabilisierung mit Kalk und Zement</a><a data-interlink="1" href="../umgang-organischen-boden">Umgang mit organischen Böden</a></div></div><div class="cat-item" data-cat="seismik"><div class="cat-row"><a href="../seismik/" class="cat-name">Seismik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../analyse-seismischen-verstarkung">Analyse der seismischen Verstärkung</a><a data-interlink="1" href="../erdbebenisolationsbemessung">Erdbebenisolationsbemessung</a><a data-interlink="1" href="../seismische-mikrozonierung">Seismische Mikrozonierung</a><a data-interlink="1" href="../standortantwortanalyse">Standortantwortanalyse</a></div></div><div class="cat-item" data-cat="straenbaugeotechnik"><div class="cat-row"><a href="../straenbaugeotechnik/" class="cat-name">Straßenbaugeotechnik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Straßenbaugeotechnik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-flexibler-fahrbahnen">Bemessung flexibler Fahrbahnen</a><a data-interlink="1" href="../bemessung-starrer-fahrbahnen">Bemessung starrer Fahrbahnen</a><a data-interlink="1" href="../bewertung-bestehender-fahrbahnen">Bewertung bestehender Fahrbahnen</a><a data-interlink="1" href="../bodenstabilisierung-fur-straßen">Bodenstabilisierung für Straßen</a><a data-interlink="1" href="../cbr-studie-fur-straßenentwurf">CBR-Studie für Straßenentwurf</a><a data-interlink="1" href="../geotechnische-straßenentwasserung">Geotechnische Straßenentwässerung</a><a data-interlink="1" href="../straßendammbemessung">Straßendammbemessung</a><a data-interlink="1" href="../fahrbahnbau-untergrundbemessung">Straßengeotechnik (Fahrbahnbau/Untergrundbemessung)</a></div></div><div class="cat-item" data-cat="geophysik"><div class="cat-row"><a href="../geophysik/" class="cat-name">Geophysik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geophysik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../ground-penetrating-radar">Georadar GPR (Ground Penetrating Radar)</a><a data-interlink="1" href="../hvsr-mikrotremor-messung">HVSR-Mikrotremor-Messung (Nakamura-Methode)</a><a data-interlink="1" href="../scherwellengeschwindigkeit">MASW / VS30 (Scherwellengeschwindigkeit)</a><a data-interlink="1" href="../seismische-tomographie">Seismische Tomographie (Refraktion/Reflexion)</a></div></div><div class="cat-item" data-cat="untertagebau"><div class="cat-row"><a href="../untertagebau/" class="cat-name">Untertagebau</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Untertagebau"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../geotechnische-analyse-fur-tunnel">Geotechnische Analyse für Tunnel in weichem Boden</a><a data-interlink="1" href="../geotechnische-baugrubenuberwachung">Geotechnische Baugrubenüberwachung</a><a data-interlink="1" href="../geotechnische-bemessung-tiefer-baugruben">Geotechnische Bemessung tiefer Baugruben</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>In Bamberg erfordert die komplexe Geologie des fränkischen Bruchschollenlandes mit seinen Tonstein-, Sandstein- und Kalksteinformationen eine präzise Baugrunderkundung. Unsere geophysikalischen Untersuchungen liefern zerstörungsfrei hochauflösende Daten zur Struktur des Untergrunds, zur Detektion von Hohlräumen oder zur Bewertung der seismischen Standortgefährdung gemäß DIN 4149 bzw. dem aktuellen Eurocode 8. Besonders das <a href="ground-penetrating-radar">Georadar GPR</a> ermöglicht die lückenlose Kartierung von oberflächennahen Störzonen und Leitungen im innerstädtischen Bereich.</p>
-
-<p>Für die dynamische Baugrundbeurteilung setzen wir auf die Kombination aus <a href="scherwellengeschwindigkeit">MASW / VS30-Messungen</a> zur Bestimmung der Untergrundklasse und <a href="hvsr-mikrotremor-messung">HVSR-Mikrotremor-Messungen</a> zur Ermittlung der Eigenfrequenz des Bodens. Diese Verfahren kommen sowohl bei Neubauprojekten als auch bei der statischen Nachrechnung von Bestandsbauten zum Einsatz und gewährleisten eine normkonforme, wirtschaftliche Gründungsberatung im Bamberger Raum.</p><figure style="margin:1.5rem auto;max-width:720px;text-align:center"><img src="/img/amplificacion-sismica-2.webp" loading="lazy" decoding="async" width="800" height="600" alt="Illustratives Bild von Analyse der seismischen Verstärkung in Bamberg" style="width:100%;height:auto;display:block;border-radius:8px;border:1px solid #E5E7EB"></figure></section>
-
-            <blockquote style="border-left:4px solid #E11D48;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">In den weichen Tonen Gaustadts kann die seismische Verstärkung das doppelte der Beschleunigung des freien Feldes erreichen.</blockquote>
-
-            
-
-            <section>
-                <h2>Arbeitsumfang in Bamberg</h2>
-                <div>Ein Mehrfamilienhaus an der Starkenfeldstraße zeigte uns, wie nötig die Analyse der seismischen Verstärkung ist. Die oberen 8 Meter bestehen aus schluffigem Ton mit niedriger Steifigkeit. Unterhalb folgt dichter Kies. Solche Schichtwechsel erzeugen eine deutliche Bodenverstärkung im Frequenzbereich von 2–4 Hz. Das Verfahren umfasst:<br><ul><li>Messung des VS30-Profils mittels Oberflächenwellen</li><li>Berechnung des Verstärkungsfaktors nach NEHRP-Klassifikation</li><li>Berücksichtigung lokaler Topografie und Beckeneffekte</li></ul>Ergänzend setzen wir die Mikrotremor-HVSR-Methode ein, um die Eigenfrequenz des Bauplatzes zu bestimmen. So entsteht eine fundierte Grundlage für die Tragwerksplanung.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Analyse der seismischen Verstärkung in Bamberg</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #E11D48;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#E11D48;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typischer Wert</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Scherwellengeschwindigkeit VS30</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">180–360 m/s (weiche Böden) bis >800 m/s (Fels)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Dominante Bodenperiode T0</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0,3–1,2 s je nach Mächtigkeit der Weichschicht</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Verstärkungsfaktor Fa (0,2 s)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1,2–1,8 nach ASCE 7-16 Tabelle 11.4-1</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Verstärkungsfaktor Fv (1,0 s)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1,4–2,4 für Baugrundklasse C und D</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Schichtdicke der Weichschicht</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">5–25 m typisch für Regnitzauen und Keuperausläufer</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Messgenauigkeit Eigenfrequenz</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">±0,05 Hz bei HVSR-Messung mit 30 min Aufzeichnung</td></tr></tbody></table></div>
-
-            
-
-            <section>
-                <h2>Kritische Bodenfaktoren in Bamberg</h2>
-                <p>Die geologische Karte Bambergs zeigt eine heterogene Abfolge aus quartären Kiesen, Auenlehmen und Keupertonen. In den Tallagen des Main und der Regnitz können die weichen Bindeschichten bis zu 20 Meter mächtig werden. Fehlt eine Analyse der seismischen Verstärkung, unterschätzt man die tatsächlichen Erdbebenlasten oft um den Faktor 2 bis 3. Das Risiko reicht von unkontrollierten Rissen im Mauerwerk bis hin zu bleibenden Setzungen nach einem Beben. Gerade in den Bamberger Neubaugebieten am Stadtrand ist dieser Effekt nicht zu vernachlässigen.</p>
-            </section>
-
-            
-    <section class="block mid-cta-a9ae-a9ae" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Antwort innerhalb von 24h.</p>
-        <a href="mailto:kontakt@geotechnik.vip" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-Mail: kontakt@geotechnik.vip</a>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Anwendbare Normen:</strong> DIN EN 1998-1 (Eurocode 8) mit Nationalem Anhang, DIN 4149:2005 (Bauten in deutschen Erdbebengebieten), NEHRP Recommended Seismic Provisions (FEMA P-1050), DIN EN 1997-1 (Eurocode 7: Entwurf, Berechnung und Bemessung)
-            </div>
-
-            <section>
-                <h2>Unsere Leistungen</h2>
-                <p>Wir bieten zur seismischen Beurteilung zwei spezialisierte Leistungen für Bamberg an:</p>
-                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover h3{color:#E11D48}.servicios-grid a.servicio-link:hover{border-color:#E11D48;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#E11D48;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}</style><div class="servicios-grid"><div class="servicio"><h3>Oberflächenwellen-Messung (MASW / ReMi)</h3><p>Bestimmung des <a href="../scherwellengeschwindigkeit/" data-interlink="1">VS30</a>-Profils entlang von Messlinien. Geeignet für Bauplätze ab 500 m². Liefert die Eingangsparameter für die Verstärkungsanalyse nach Eurocode 8.</p></div><div class="servicio"><h3>Mikrotremor-HVSR zur Eigenfrequenzbestimmung</h3><p>Einpunktmessung der Bodenunruhe. Ermittelt die dominante Frequenz des Standorts. Besonders wichtig für die Abstimmung von Gebäudeeigenfrequenz und Bodenresonanz.</p></div></div>
-            </section>
-
-            
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../ground-penetrating-radar/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Georadar GPR (Ground Penetrating Radar)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../hvsr-mikrotremor-messung/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">HVSR-Mikrotremor-Messung (Nakamura-Methode)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../scherwellengeschwindigkeit/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">MASW / VS30 (Scherwellengeschwindigkeit)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismische-tomographie/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismische Tomographie (Refraktion/Reflexion)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
-    </div>
-</div>
-
-<link rel="stylesheet" href="/css/leaflet-a9ae.css"/>
-<script src="/js/leaflet-a9ae.js"></script>
-<script>
-(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([49.8916044,10.8868478],12);L.tileLayer("https://{s}.tile-a9ae.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([49.8916044,10.8868478]).addTo(map).bindPopup("Bamberg").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
-</script><footer style="background:#18181B;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Bamberg, Germany · <a href="mailto:kontakt@geotechnik.vip" style="color:#FFF;text-decoration:underline">kontakt@geotechnik.vip</a><div data-updated="2026-04-23" style="font-size:.78rem;color:rgba(255,255,255,.6);margin-top:.8rem">Zuletzt aktualisiert: 2026-04-27</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong> <a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div></footer>
-
-<script>(function(){document.querySelectorAll(".cat-toggle").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();var s=b.parentElement.parentElement.querySelector(".cat-sub-wrap");var ex=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!ex);if(s){s.hidden=ex;}});});})();</script></body>
-</html>
+<link rel="alternate" hreflang="de-DE" href="https://bamberg.geotechnik.vip/geophysik/">
+</head><body><header><div class="container"><div class="header-top"><div><div style="display:inline-flex;flex-direction:column;align-items:center;gap:6px;"><svg viewBox="0 0 64 64" width="44" height="44" style="flex-shrink:0"><polygon points="32,4 60,24 50,58 14,58 4,24" fill="#E11D48"/></svg><span style="font-family:Georgia, "Times New Roman", serif;sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:15px;text-transform:uppercase;letter-spacing:0.1em;">Bamberg De</span></div><div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Bamberg, Germany</div></div><div class="header-contact"><a href="mailto:kontakt@geotechnik.vip">kontakt@geotechnik.vip</a></div></div><nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Startseite</a></li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Geophysik</li></ol></nav><h1>Geophysik in Bamberg</h1></div></header><div class="container"><div class="content-area"><aside class="sidebar"><nav><a href="index.html" class="home">Start</a><div class="cat-item" data-cat="erkundung"><div class="cat-row"><a href="../erkundung/" class="cat-name">Erkundung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Erkundung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../cone-penetration-test">CPT (Cone Penetration Test)</a><a data-interlink="1" href="../sondierbohrung">Schürfgrube (Sondierbohrung)</a><a data-interlink="1" href="../standard-penetration-test">SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="in-situ-prufungen"><div class="cat-row"><a href="../in-situ-prufungen/" class="cat-name">In-Situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../felddurchlassigkeitsversuch">Felddurchlässigkeitsversuch (Lefranc/Lugeon)</a><a data-interlink="1" href="../flachdilatometer-versuch">Flachdilatometer-Versuch (DMT)</a><a data-interlink="1" href="../porchet-doppelring-infiltrometer">Infiltrationstest (Porchet/Doppelring-Infiltrometer)</a><a data-interlink="1" href="../menard-druckversuch">Ménard-Druckversuch (Druckmesserversuch)</a></div></div><div class="cat-item" data-cat="labor"><div class="cat-row"><a href="../labor/" class="cat-name">Labor</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Labor"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../atterberg-grenzen">Atterberg-Grenzen</a><a data-interlink="1" href="../bodenmechanische-untersuchung">Bodenmechanische Untersuchung</a><a data-interlink="1" href="../charakterisierung-residualboden">Charakterisierung von Residualböden</a><a data-interlink="1" href="../einaxialer-druckversuch">Einaxialer Druckversuch (UCS)</a><a data-interlink="1" href="../labor-durchlassigkeitsversuch">Labor-Durchlässigkeitsversuch (fallender/konstanter Druck)</a><a data-interlink="1" href="../normal-modifiziert">Proctor-Versuch (Normal oder Modifiziert)</a></div></div><div class="cat-item" data-cat="fundamente"><div class="cat-row"><a href="../fundamente/" class="cat-name">Fundamente</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundamente"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-rammpfahlen">Bemessung von Rammpfählen</a><a data-interlink="1" href="../bewertung-quellfahigen-boden">Bewertung von quellfähigen Böden</a><a data-interlink="1" href="../bewertung-setzungsempfindlichen-boden">Bewertung von setzungsempfindlichen Böden</a><a data-interlink="1" href="../flachgrundungsbemessung">Flachgründungsbemessung</a><a data-interlink="1" href="../mikropfahlbemessung">Mikropfahlbemessung</a><a data-interlink="1" href="../plattengrundungsbemessung">Plattengründungsbemessung</a><a data-interlink="1" href="../setzungsanalyse">Setzungsanalyse</a><a data-interlink="1" href="../tragfahigkeitsanalyse">Tragfähigkeitsanalyse</a></div></div><div class="cat-item" data-cat="hange-wande"><div class="cat-row"><a href="../hange-wande/" class="cat-name">Hänge</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Hänge"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-geozellen">Bemessung mit Geozellen</a><a data-interlink="1" href="../berechnung-des-sicherheitsfaktors">Berechnung des Sicherheitsfaktors (FS)</a><a data-interlink="1" href="../bodenerosionsanalyse">Bodenerosionsanalyse</a><a data-interlink="1" href="../boschungsbruchanalyse">Böschungsbruchanalyse</a><a data-interlink="1" href="../boschungsstabilisierungsbemessung">Böschungsstabilisierungsbemessung</a><a data-interlink="1" href="../boschungsstabilitatsanalyse">Böschungsstabilitätsanalyse</a><a data-interlink="1" href="../geotechnische-boschungsuberwachung">Geotechnische Böschungsüberwachung (monatlich)</a><a data-interlink="1" href="../rutschungsbewertung">Rutschungsbewertung</a><a data-interlink="1" href="../schlitzwandbemessung">Schlitzwandbemessung</a><a data-interlink="1" href="../spundwandbemessung">Spundwandbemessung</a><a data-interlink="1" href="../stutzwandbemessung">Stützwandbemessung</a></div></div><div class="cat-item" data-cat="Bodenverb."><div class="cat-row"><a href="../Bodenverb./" class="cat-name">Bodenverb.</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Bodenverb."><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-dynamischen-verdichtung">Bemessung der dynamischen Verdichtung</a><a data-interlink="1" href="../bemessung-rutteldruckverdichtung">Bemessung der Rütteldruckverdichtung</a><a data-interlink="1" href="../bemessung-vorbelastung-auflast">Bemessung der Vorbelastung mit Auflast</a><a data-interlink="1" href="../bemessung-vertikalen-drans">Bemessung von vertikalen Dräns (vorgefertigt)</a><a data-interlink="1" href="../deep-soil-mixing">Deep Soil Mixing (DSM) Bemessung</a><a data-interlink="1" href="../geogitter-spezifikation">Geogitter-Spezifikation</a><a data-interlink="1" href="../geomembran-spezifikation">Geomembran-Spezifikation</a><a data-interlink="1" href="../geotechnik-deponien">Geotechnik von Deponien</a><a data-interlink="1" href="../geotechnische-entwasserungsbemessung">Geotechnische Entwässerungsbemessung</a><a data-interlink="1" href="../geotechnische-instrumentierung">Geotechnische Instrumentierung (Bemessung und Installation)</a><a data-interlink="1" href="../geotextil-spezifikation">Geotextil-Spezifikation</a><a data-interlink="1" href="../injektionsbemessung">Injektionsbemessung (Grouting)</a><a data-interlink="1" href="../jet-grouting-bemessung">Jet-Grouting-Bemessung</a><a data-interlink="1" href="../sanierung-kontaminierter-boden">Sanierung kontaminierter Böden</a><a data-interlink="1" href="../stabilisierung-kalk-zement">Stabilisierung mit Kalk und Zement</a><a data-interlink="1" href="../umgang-organischen-boden">Umgang mit organischen Böden</a></div></div><div class="cat-item" data-cat="seismik"><div class="cat-row"><a href="../seismik/" class="cat-name">Seismik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../analyse-seismischen-verstarkung">Analyse der seismischen Verstärkung</a><a data-interlink="1" href="../erdbebenisolationsbemessung">Erdbebenisolationsbemessung</a><a data-interlink="1" href="../seismische-mikrozonierung">Seismische Mikrozonierung</a><a data-interlink="1" href="../standortantwortanalyse">Standortantwortanalyse</a></div></div><div class="cat-item" data-cat="straenbaugeotechnik"><div class="cat-row"><a href="../straenbaugeotechnik/" class="cat-name">Straßenbau</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Straßenbau"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../bemessung-flexibler-fahrbahnen">Bemessung flexibler Fahrbahnen</a><a data-interlink="1" href="../bemessung-starrer-fahrbahnen">Bemessung starrer Fahrbahnen</a><a data-interlink="1" href="../bewertung-bestehender-fahrbahnen">Bewertung bestehender Fahrbahnen</a><a data-interlink="1" href="../bodenstabilisierung-fur-straßen">Bodenstabilisierung für Straßen</a><a data-interlink="1" href="../cbr-studie-fur-straßenentwurf">CBR-Studie für Straßenentwurf</a><a data-interlink="1" href="../geotechnische-straßenentwasserung">Geotechnische Straßenentwässerung</a><a data-interlink="1" href="../straßendammbemessung">Straßendammbemessung</a><a data-interlink="1" href="../fahrbahnbau-untergrundbemessung">Straßengeotechnik (Fahrbahnbau/Untergrundbemessung)</a></div></div><div class="cat-item" data-cat="geophysik"><div class="cat-row"><a href="../geophysik/" class="cat-name">Geophysik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geophysik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../ground-penetrating-radar">Georadar GPR (Ground Penetrating Radar)</a><a data-interlink="1" href="../hvsr-mikrotremor-messung">HVSR-Mikrotremor-Messung (Nakamura-Methode)</a><a data-interlink="1" href="../scherwellengeschwindigkeit">MASW / VS30 (Scherwellengeschwindigkeit)</a><a data-interlink="1" href="../seismische-tomographie">Seismische Tomographie (Refraktion/Reflexion)</a></div></div><div class="cat-item" data-cat="Tunnelbau"><div class="cat-row"><a href="../Tunnelbau/" class="cat-name">Tunnelbau</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Tunnelbau"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../geotechnische-analyse-fur-tunnel">Geotechnische Analyse für Tunnel in weichem Boden</a><a data-interlink="1" href="../geotechnische-baugrubenuberwachung">Geotechnische Baugrubenüberwachung</a><a data-interlink="1" href="../geotechnische-bemessung-tiefer-baugruben">Geotechnische Bemessung tiefer Baugruben</a></div></div></nav></aside><main><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Die Geophysik umfasst in Bamberg ein breites Spektrum zerstörungsfreier Untersuchungsmethoden zur Erkundung des oberflächennahen Untergrunds. Diese Verfahren liefern entscheidende Informationen über Bodenbeschaffenheit, Schichtgrenzen, Hohlräume, Grundwasserleiter und die dynamischen Eigenschaften des Baugrunds. In einer Stadt mit einer so reichen historischen Bausubstanz und einer komplexen geologischen Situation im Übergangsbereich zwischen Keuper und Quartär ist die hochauflösende geophysikalische Erkundung nicht nur ein Werkzeug der Vorsorge, sondern oftmals die einzige Möglichkeit, sensible Strukturen zu untersuchen, ohne in die Substanz einzugreifen. Von der Detektion archäologischer Relikte im Welterbe über die Baugrundvorbereitung bis hin zur seismischen Standortanalyse für erdbebensicheres Bauen – die angewandte Geophysik ist ein unverzichtbarer Bestandteil moderner Planungsprozesse.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Die geologische Situation Bambergs ist geprägt von den Sedimenten des oberen Keupers, insbesondere den Ton- und Sandsteinen des Burgsandsteins und des Feuerlettens, die im Stadtgebiet weitflächig anstehen. Diese Festgesteine werden in den Tallagen des Mains und der Regnitz von mächtigen quartären Talfüllungen aus Kiesen, Sanden und Auelehmen überlagert. Diese Wechsellagerung von Lockergesteinen und Festgestein führt zu stark variierenden Baugrundverhältnissen auf engstem Raum. Hinzu kommen anthropogene Auffüllungen, die besonders im Altstadtbereich oft historische Keller, verfüllte Gräben oder alte Fundamentreste enthalten. Diese Heterogenität macht punktuelle Aufschlüsse allein oft unzureichend, weshalb flächenhafte geophysikalische Verfahren wie das <a href='/ground-penetrating-radar/'>Georadar GPR</a> eine Schlüsselrolle spielen, um ein lückenloses Untergrundmodell zu erstellen.</p></div></section><section class="block" style="padding:1.5rem"><div style="max-width:1100px;margin:0 auto"><img src="/img/respuesta-sismica-4.webp" alt="Geophysik in Bamberg" loading="eager" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0" fetchpriority="high"></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Für die Anwendung geophysikalischer Methoden in Deutschland sind die einschlägigen Normen und Regelwerke zu beachten, die eine qualitätsgesicherte und vergleichbare Durchführung gewährleisten. Zentral ist hier die DIN 4020 für geotechnische Untersuchungen, die den Rahmen für Baugrunderkundungen vorgibt. Für seismische Verfahren sind die DIN 45669-1 (Messung von Schwingungsimmissionen) und die DIN EN 1998-1/NA (Eurocode 8: Auslegung von Bauwerken gegen Erdbeben) in Verbindung mit dem nationalen Anhang maßgeblich. Letztere fordert für bestimmte Bauwerksklassen die Bestimmung der Untergrundklasse und des Vs,30-Wertes, was durch Verfahren wie die <a href='/scherwellengeschwindigkeit/'>MASW / VS30 Scherwellengeschwindigkeitsmessung</a> erfolgt. Die Ergebnisse müssen den Anforderungen der DIN 19700 für Stauanlagen oder der DIN 4150 für Erschütterungsschutz genügen, sofern diese relevant sind. In Bamberg sind zudem die Vorgaben des Bayerischen Denkmalschutzgesetzes zu beachten, da geophysikalische Prospektionen oft in archäologischen Verdachtsflächen zum Einsatz kommen.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Die Bandbreite der Projekte, die in Bamberg geophysikalische Untersuchungen erfordern, ist enorm. Im Hochbau sind es vor allem Neubauten in der Altstadt, bei denen die Gründung auf historischen Kellern oder nicht tragfähigen Verfüllungen geplant werden muss. Hier hilft die <a href='/seismische-tomographie/'>Seismische Tomographie</a>, die Geometrie des Felshorizonts präzise zu kartieren. Infrastrukturprojekte wie der Ausbau des ÖPNV oder die Sanierung von Brückenbauwerken erfordern die Detektion von Auflockerungszonen und die Bewertung der Tragfähigkeit. Im Bereich der erdbebensicheren Bemessung von Gebäuden der Bedeutungskategorien III und IV, etwa Schulen oder Krankenhäuser, ist die Bestimmung der Bodenklasse nach DIN EN 1998-1 unerlässlich. Hierfür kommt die <a href='/hvsr-mikrotremor-messung/'>HVSR-Mikrotremor-Messung nach der Nakamura-Methode</a> zum Einsatz, die eine effiziente Ermittlung der Eigenfrequenz des Untergrunds ermöglicht und in Kombination mit MASW ein vollständiges dynamisches Bodenprofil liefert.</p></div></section><section class="block mid-cta-a9ae-a9ae" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.5rem 1.8rem;border-radius:6px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Antwort innerhalb von 24h.</p><a href="mailto:kontakt@geotechnik.vip" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-Mail: kontakt@geotechnik.vip</a></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../ground-penetrating-radar/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Georadar GPR (Ground Penetrating Radar)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../hvsr-mikrotremor-messung/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">HVSR-Mikrotremor-Messung (Nakamura-Methode)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../scherwellengeschwindigkeit/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">MASW / VS30 (Scherwellengeschwindigkeit)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../seismische-tomographie/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Seismische Tomographie (Refraktion/Reflexion)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:900px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Häufig gestellte Fragen</h2><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Was ist der Unterschied zwischen zerstörender und zerstörungsfreier geophysikalischer Erkundung?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Zerstörende Verfahren wie Bohrungen oder Sondierungen liefern punktuelle, direkte Aufschlüsse, stören jedoch den Untergrund und sind in sensiblen Bereichen wie der Bamberger Altstadt oft nicht genehmigungsfähig. Zerstörungsfreie geophysikalische Methoden wie Georadar oder Seismik tasten den Untergrund flächenhaft von der Oberfläche aus ab und liefern hochauflösende Modelle, ohne in die Substanz einzugreifen – ideal für archäologische oder bautechnische Fragestellungen.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Welche geophysikalische Methode eignet sich am besten zur Ortung historischer Keller in Bamberg?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Für die Detektion oberflächennaher Hohlräume und historischer Keller ist das Georadar (GPR) in der Regel die Methode der Wahl. Es sendet elektromagnetische Wellen aus und zeichnet Reflexionen an Materialgrenzen auf, wodurch Hohlräume, Fundamente und verfüllte Strukturen hochauflösend abgebildet werden können. Die Effektivität hängt jedoch stark von den Bodenverhältnissen ab; tonige oder lehmige Auffüllungen können die Eindringtiefe limitieren.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Wann ist eine seismische Standortanalyse nach Eurocode 8 in Bamberg erforderlich?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Eine seismische Standortanalyse zur Bestimmung der Baugrundklasse und des Vs,30-Wertes ist erforderlich, wenn Bauwerke der Bedeutungskategorien III oder IV nach DIN EN 1998-1 errichtet werden. Dazu zählen Schulen, Krankenhäuser, Einrichtungen des Katastrophenschutzes oder große Versammlungsstätten. Da Bamberg in der Erdbebenzone 1 liegt, sind die Anforderungen zwar moderat, aber für diese sensiblen Bauwerke dennoch verbindlich nachzuweisen.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Wie lange dauert eine typische geophysikalische Untersuchungskampagne in Bamberg?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Die Dauer variiert stark je nach Verfahren und Untersuchungsfläche. Eine HVSR-Messung an einem Punkt dauert nur etwa 30 Minuten. Eine MASW-Kampagne für ein Einfamilienhausgrundstück ist oft an einem Vormittag abgeschlossen. Flächenhafte Georadar- oder Seismiktomographie-Messungen für größere Projekte können jedoch mehrere Tage in Anspruch nehmen. Die Hauptzeit liegt meist in der Datenprozessierung und Interpretation, die ein Vielfaches der Messzeit betragen kann.</p></details></div></section><section><h2>Abdeckung in Bamberg</h2><link rel="stylesheet" href="/css/leaflet-a9ae.css"/><div id="mapa-ciudad"></div><script src="/js/leaflet-a9ae.js"></script><script>
+var map = L.map('mapa-ciudad').setView([49.8916044,10.8868478], 12);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([49.8916044,10.8868478],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
+L.circle([49.8916044,10.8868478],{radius:3000,color:'#E11D48',fillColor:'#F43F5E',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Bamberg');
+</script></section></main></div></div><link rel="stylesheet" href="/css/leaflet-a9ae.css"/><script src="/js/leaflet-a9ae.js"></script><script>
+(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([49.8916044,10.8868478],12);L.tileLayer("https://{s}.tile-a9ae.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([49.8916044,10.8868478],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36],popupAnchor:[0,-32]})}).addTo(map).bindPopup("Bamberg").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
+</script><footer style="background:#18181B;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Bamberg, Germany · <a href="mailto:kontakt@geotechnik.vip" style="color:#FFF;text-decoration:underline">kontakt@geotechnik.vip</a><div data-updated="2026-04-05" style="font-size:.78rem;color:rgba(255,255,255,.6);margin-top:.8rem">Zuletzt aktualisiert: 2026-04-05</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong><a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div></footer><script>(function(){document.querySelectorAll(".cat-toggle").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();var s=b.parentElement.parentElement.querySelector(".cat-sub-wrap");var ex=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!ex);if(s){s.hidden=ex;}});});})();</script></body></html>
